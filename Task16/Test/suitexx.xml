@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<test name="Test">
+		<classes>
+			<class name="NewTest1" />
+			<class name="NewTest2" />
+			<class name="NewTest3" />
+			<class name="NewTest4" />
+			<class name="NewTest5" />
+			<class name="NewTest6" />
+			<class name="NewTest7" />
+			<class name="NewTest8" />
+			<class name="NewTest9" />
+			<class name="NewTest10" />
+			<class name="NewTest11" />
+			<class name="NewTest12" />
+			<class name="NewTest13" />
+			<class name="NewTest14" />
+			<class name="NewTest15" />
+			<class name="NewTest16" />
+			<class name="NewTest17" />
+			<class name="NewTest18" />
+			<class name="NewTest19" />
+			<class name="NewTest20" />
+			<class name="NewTest21" />
+			<class name="NewTest22" />
+			<class name="NewTest23" />
+			<class name="NewTest24" />
+			<class name="NewTest25" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
