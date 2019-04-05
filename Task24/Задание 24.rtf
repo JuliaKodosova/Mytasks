@@ -1,0 +1,28 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf600
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 1) SELECT * FROM Categories\
+2) SELECT CategoryID,CategoryName FROM Categories\
+3) SELECT ADDRESS FROM Suppliers\
+4) SELECT * FROM Products ORDER BY Price Desc\
+5) SELECT * FROM Orders ORDER BY CustomerID,ShipperID\
+6) SELECT * FROM Products WHERE Price > 40 ORDER BY ProductName DESC\
+7) SELECT * FROM Products WHERE Price BETWEEN 20 AND 50 ORDER BY Unit\
+8) SELECT * FROM Products WHERE Price BETWEEN 20 AND 100 OR CategoryID=6\
+9) SELECT * FROM Products WHERE Price IN (46,53,55)\
+    SELECT * FROM Products WHERE Price =46 OR Price=53 OR Price=55\
+10) SELECT * FROM Products WHERE NOT Price IN (46,53,55)\
+11) SELECT * FROM Products WHERE ProductName LIKE '%han%'\
+12) INSERT INTO Shippers (ShipperID,ShipperName,Phone)VALUES ('7','test','test')\
+13) INSERT INTO Shippers (ShipperID,ShipperName)VALUES ('8','test2')\
+14) INSERT INTO Categories (CategoryName,Description) SELECT ShipperName,Phone FROM Shippers\
+15) INSERT INTO Categories(CategoryID,CategoryName,Description)SELECT ShipperID, ShipperName,Phone FROM Shippers WHERE ShipperName='Speedy Express'\
+16) DELETE FROM Shippers WHERE ShipperName='Speedy Express'\
+17) DELETE FROM Products WHERE Price < 50\
+18) DELETE FROM Orders \
+19) UPDATE Categories SET Description='test' WHERE CategoryName='Beverages'\
+20) UPDATE Products SET Price=777 WHERE ProductName='Chais'}
