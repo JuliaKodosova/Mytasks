@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <Students>
+    <Student id = "1">      
+      <Name>Olga</Name>
+      <Surname>Ivanova</Surname>
+      <Subject>Android</Subject>      
+    </Student>   
+    <Student id = "2">      
+      <Name>Julia</Name>
+      <Surname>Kodosova</Surname>
+      <Subject>Java</Subject>      
+    </Student>
+  </Students>
